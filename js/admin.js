@@ -1442,6 +1442,7 @@
             console.error('Error updating booking status:', error);
         }
     }
+    window.updateBookingStatus = updateBookingStatus;
 
     // Load Contacts
     async function loadContacts() {
@@ -1550,6 +1551,7 @@
             console.error('Error toggling car availability:', error);
         }
     }
+    window.toggleCarAvailability = toggleCarAvailability;
 
     // Navigate to a section and update the URL
     function navigateToSection(section) {
